@@ -67,7 +67,9 @@ repita
       Escreval("")
 
 
-
+   outrocaso
+     Escreval("Opção inválida")
+     
    fimescolha
 
 ate menu= "5"
