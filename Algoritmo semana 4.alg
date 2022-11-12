@@ -1,13 +1,13 @@
-algoritmo "entrega algoritmo semana 4"
+algoritmo "semnome"
 // Função :
-// Autor : Nicolas Pacher
+// Autor :
 // Data : 11/11/2022
-// Seção de Declarações
+// Seção de Declarações 
 var
 temperaturaCelsius, temperaturaFahrenheit: real
 reais , dolares : real
 menu: literal
-resultado: real
+cotacao: real
 
 inicio
 repita
@@ -21,30 +21,50 @@ repita
    leia(menu)
 
    Escolha menu
+
+   //converter celsius para fahrenheit
    caso "1"
       Escreval("Insira a temperatura em Celsius")
       leia(temperaturaCelsius)
       TemperaturaFahrenheit <- (TemperaturaCelsius * 1.8) + 32
+      limpatela
+      Escreval("")
       Escreval("A temperatura em Fahrenheit é: ", TemperaturaFahrenheit:1:2, " ° F")
+      Escreval("")
+
+
    caso "2"
       Escreval("Insira a temperatura em Fahrenheit")
       leia(TemperaturaFahrenheit)
       TemperaturaCelsius <- (TemperaturaFahrenheit - 32) / 1.8
+      limpatela
+      Escreval("")
       Escreval("A temperatura em Celsius é: ", TemperaturaCelsius:1:2, " ° C")
+      Escreval("")
+
+      //converter real para dolares
    caso "3"
-      Escreval("Informe a cotação do dolares")
-      leia(dolares)
+      Escreval("Informe a cotação")
+      leia(cotacao)
       Escreval("informe quantos reais serão convertido")
       leia(reais)
-      resultado <- reais/dolares
-      Escreval("O resultado da cotação é: ",resultado:1:2)
+      dolares <- reais/cotacao
+      limpatela
+      Escreval("")
+      Escreval("O resultado da cotação é: $ ",dolares:1:2)
+      Escreval("")
+
+      //converter dolares para real
    caso "4"
-      Escreval("Informe a cotação do dolares")
+      Escreval("Informe a cotação")
+      leia(cotacao)
+      Escreval("informe quantos dolares serão convertido")
       leia(dolares)
-      Escreval("informe quantos reais serão convertido")
-      leia(reais)
-      resultado <- dolares*reais
-      Escreval("O resultado da cotação é: ",resultado:1:2)
+      reais <- dolares*cotacao
+      limpatela
+      Escreval("")
+      Escreval("O resultado da cotação é: R$",reais:1:2)
+      Escreval("")
 
 
 
