@@ -1,0 +1,22 @@
+ProjetoCalculadora/Main.java
+ ProjetoCalculadora.Main
+ProjetoCalculadora/Calculadora.java
+ ProjetoCalculadora.Calculadora
+ ProjetoCalculadora.Calculadora$1
+ ProjetoCalculadora.Calculadora$10
+ ProjetoCalculadora.Calculadora$11
+ ProjetoCalculadora.Calculadora$12
+ ProjetoCalculadora.Calculadora$13
+ ProjetoCalculadora.Calculadora$14
+ ProjetoCalculadora.Calculadora$15
+ ProjetoCalculadora.Calculadora$16
+ ProjetoCalculadora.Calculadora$17
+ ProjetoCalculadora.Calculadora$18
+ ProjetoCalculadora.Calculadora$2
+ ProjetoCalculadora.Calculadora$3
+ ProjetoCalculadora.Calculadora$4
+ ProjetoCalculadora.Calculadora$5
+ ProjetoCalculadora.Calculadora$6
+ ProjetoCalculadora.Calculadora$7
+ ProjetoCalculadora.Calculadora$8
+ ProjetoCalculadora.Calculadora$9
